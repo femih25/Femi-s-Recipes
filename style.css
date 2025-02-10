@@ -1,0 +1,40 @@
+body { 
+    background-color: white;
+}
+
+h1 {
+    color: rgb(140, 185, 140)
+}
+
+h1, h2 { 
+    text-align: center; 
+}
+
+#container { 
+    display: flex; 
+    gap: 20px;
+}
+
+#lunches, #dinners, #desserts {
+    border-radius: 15px;
+    flex: 1; 
+    padding: 10px;
+}
+
+ #lunches { 
+    color: white;
+    background-color:rgb(140, 185, 140); 
+    width: 33% 
+ }
+
+ #dinners { 
+    color: white;
+    background-color: rgb(140, 185, 140); 
+    width: 33% 
+ }
+
+ #desserts { 
+    color: white;
+    background-color: rgb(140, 185, 140); 
+    width: 33% 
+ }
