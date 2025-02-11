@@ -38,3 +38,12 @@ h1, h2 {
     background-color: rgb(140, 185, 140); 
     width: 33% 
  }
+
+ @media (max-width: 600px) {
+    #container {
+        flex-direction: column;
+    } 
+    #lunches, #dinners, #desserts { 
+        width: 90%;
+    }
+}
